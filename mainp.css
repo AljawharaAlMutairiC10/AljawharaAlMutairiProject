@@ -1,0 +1,225 @@
+*
+  {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    background-color: #9cc2bd;
+   
+  }
+ 
+
+title{
+  margin-right: 1cm;
+  font-size: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+  #logoo{
+    width: 100px;
+    height: 100px;
+  }
+  
+  #sidebar-wrapper {
+    float: right;
+    width: 320px;
+    margin: 0;
+    padding: 0 20px 10px;
+    display: inline;
+    }
+
+.sidebar {
+    margin-left: 100px;
+    width: 100%;
+	  float: right; 
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    
+  }
+  
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    font-family: 'Jomhuria', cursive;
+    font-size: 32px;
+    margin-bottom: 1cm;
+    text-decoration: none;
+    text-align: center;
+    
+  }
+  
+  
+  .sidebar a.active {
+    background-color: #6bb4ab;
+    color: white;
+  }
+  
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #c9ad59 ;
+    color: white;
+
+  }
+  
+  div.content {
+    margin-right: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+    float: right;
+  }
+  
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: right;}
+    div.content {margin-right: 0;}
+    
+  }
+  
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+
+
+
+  
+  
+  * {box-sizing: border-box;}
+
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #c9ad59;
+    width: 100%;
+    position: fixed;
+    float: right;
+    
+  }
+  
+  
+  .topnav a {
+    float: right;
+    display: block;
+    margin-left: 1cm;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'El Messiri', sans-serif;
+  }
+  
+  
+  .topnav a:hover {
+    background-color:rgba(255, 255, 255, 0.795);
+    color: black;
+  }
+  
+  
+  .topnav a.active {
+    background-color:#ab9552;
+    color: black;
+  }
+  
+  
+  .topnav .search-container {
+    float: left;
+  }
+  
+  
+  .topnav input[type=text] {
+    padding: 7px;
+    margin-top: 10px;
+    font-size: 17px;
+    width: 600px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 300px;
+    text-align: right;
+  }
+  
+  
+  .topnav .search-container button {
+    float: left;
+    padding: 7px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background: #8fbdb7;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #8fbdb765;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  } 
+  
+
+  .booksImgs{
+   
+   
+  width: 100%;
+   
+   
+    height: 100%;
+    overflow: auto;
+  }
+
+  .booksImgs img{
+    width: 300px;
+   height: 400px;
+   margin-top: 2cm;
+   margin-left: 1cm; 
+   padding: 0;
+   
+  }
+  .booksImgs img:hover{
+    box-shadow: 10px 15px #f1f1f1;
+    
+  }
+  .mL{
+    margin-top: 2cm;
+    margin-left: 7cm;
+  }

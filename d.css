@@ -1,0 +1,126 @@
+*
+  {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    background-color: #9cc2bd;
+   
+  }
+h1{
+    font-family: 'El Messiri', sans-serif;
+    text-align: center;
+    margin-top: 1cm;
+}
+
+
+.card{
+    
+    margin-top: 2cm;
+    background-color: lavenderblush;
+   align-content: center;
+    width: 1000px;
+    height: 1000px;
+    align-self: center;
+    margin-left: 250px;
+    
+}
+.dF{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imgD{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 230px;
+    height: 330px;
+}
+.xx{
+    float: right;
+    margin-top: 30px;
+    text-align: right;
+    margin-right: 30px;
+}
+h2{
+margin-bottom: 1cm;
+font-family: 'Tajawal', sans-serif;
+
+}
+.quote{
+    text-align: left;
+    margin-right: 20px;
+    margin-top: 40px;
+
+}
+.qT{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-left: 10px;
+    text-align: right;
+    background-color: #dfc474;
+    padding: 1cm;
+}
+.sA{
+    float: right;
+    text-align: right;
+    margin-right: 1cm;
+    background-color: #dfc474;
+    padding: 1cm;
+    
+}
+.pD{
+    margin-left: 1cm;
+    margin-top: 2cm;
+    
+}
+.pD img{
+    width: 30px;
+    height: 30px;
+    margin-right: 7.5cm;
+}
+.pDT{
+    margin-left: 70px;
+    margin-bottom: 1cm;
+}
+.eB{
+    margin-top: 1cm;
+    text-align: center;
+    background-color: #9cc2bd;
+    display: block;
+    color: black;
+    text-decoration: none;
+    width: 270px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+
+#imgg{
+    animation: mySpinner 4s;
+    animation-iteration-count: infinite;
+    
+}
+ 
+@keyframes mySpinner {
+
+    from{
+    transform: scale(0.75);
+    
+    }
+  
+   
+    
+    
+    to{
+        transform: scale(1)
+    
+    }
+    
+    }
+
+

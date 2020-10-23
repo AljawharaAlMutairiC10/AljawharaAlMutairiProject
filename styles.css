@@ -1,0 +1,57 @@
+body{
+background-color: #bfd9d6 ;
+
+}
+
+.logo{
+margin-right: 450px;
+margin-left: 450px;
+width: 600px;
+height: 600px;
+
+}
+h1{
+    font-family: 'Harmattan', sans-serif;
+    text-align: center;
+    font-size: 50px;
+   
+}
+nav{
+    float: right;
+}
+
+ nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+ }
+
+nav li{
+display: inline-block;
+margin-right: 35px;
+
+font-size: 25px;
+position: relative;
+margin-top: 20px;
+}
+li{
+    font-family: 'Cairo', sans-serif;
+}
+
+nav a {
+    color: #000000;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+.reD{
+    background-color: #ab9552b9;
+   
+    text-transform: capitalize;
+    text-align: center;
+}
+.reD :hover{
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+   
+}
